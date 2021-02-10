@@ -8,3 +8,4 @@ def capitalize():
 
 f = open('D:\MCA\Sem 1\Python\Sample Work\input.txt', 'r')
 capitalize()
+f.close()
