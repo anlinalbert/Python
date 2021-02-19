@@ -22,8 +22,8 @@ class Book(Publisher):
 
 class Python(Book):
     def __init__(self):
-        self.price = '300'
-        self.no_of_pages = '100'
+        self.price = 300
+        self.no_of_pages = 100
     
     def display(self):
         super().__init__()
