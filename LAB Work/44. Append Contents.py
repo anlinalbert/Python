@@ -9,6 +9,9 @@ filename = input("Enter filename: ")
 new = path + filename
 
 with open(new, 'a') as f:
-    f.write(input())
+    f.write(input())  
+f.close()
 
+with open(new, 'r') as f :
+    print("\nContent of file is:\n", f.read())
 f.close()
